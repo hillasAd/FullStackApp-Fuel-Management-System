@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+/* Aplicando estilos à base do documento */
+body {
+  background-color: var(--color-slate-50);
+  color: var(--color-slate-900);
+  font-family: var(--font-inter);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Estilização da Scrollbar (Sintaxe CSS Pura compatível com v4) */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--color-slate-100);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--color-slate-300);
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--color-slate-400);
+}
